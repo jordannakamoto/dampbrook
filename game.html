@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="css/test.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/ui_layer.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/turn_machine.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/persistant.css">
+  <body>
+  	<div id="randomnotes" style="position:absolute;margin-left: 20px">
+  		<h1>todo</h1>
+  		append card model to unordered list
+  	</div>
+  	<!-- UI START-->
+	<div id="ui_layer">
+		<div id="turn_machine">
+			<ul id="tm__cards">
+				<li class="tm__card">1</li>
+				<li class="tm__card">2</li>
+				<li class="tm__card">3</li>
+			</ul>
+		</div>
+		<div id="footer"></div>
+	</div>
+	<!-- UI END-->
+
+  <!-- scripts -->
+  <script src="scripts/vendor/jquery-3.2.1.min.js"></script>
+  <script src="scripts/vendor/pixi.min.js"></script>
+  <script src="scripts/vendor/pouchdb-6.1.2.min.js"></script>
+  <script src="scripts/game/test.js"></script> <!-- temp main -->
+
+  <script src="scripts/ui/turn_machine.js"></script>
+  </body>
+</html>

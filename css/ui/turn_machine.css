@@ -1,0 +1,26 @@
+/* within UI layer */
+#turn_machine {
+	position: absolute;
+	bottom: 30px; /* accomodates footer */
+	right: 0;
+
+	width: 700px;
+	height: 200px;
+	background: #D7DFE5;
+}
+
+#tm__cards { /* list of cards*/
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+.tm__card {
+	width: 30px;
+	height: 60px;
+	background: #9DBADD;
+	border: solid 1px #969696;
+	padding: 10px;
+	margin: 5px;
+}

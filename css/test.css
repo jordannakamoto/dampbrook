@@ -1,0 +1,8 @@
+canvas {
+	display: block; /*  will block display break the rendering? */
+	margin: auto;
+	margin-top: 40px;
+	
+	/* styles */
+	border: solid 2px grey
+}

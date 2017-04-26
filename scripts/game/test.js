@@ -1,6 +1,6 @@
 //using Pixi
 
-var renderer = PIXI.autoDetectRenderer(1280,860,{transparent: true});
+var renderer = PIXI.autoDetectRenderer(1280,800,{transparent: true});
 
 document.body.appendChild(renderer.view);
 

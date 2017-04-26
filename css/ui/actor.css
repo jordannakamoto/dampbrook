@@ -1,0 +1,61 @@
+#actor {
+	font-family: "Lora";
+	position: absolute;
+	bottom: 30px; /* accomodates footer */
+	left: 25px;
+
+	width: 560px;
+	height: 200px;
+	
+	display: flex;
+	background: #D7DFE5;
+	border: solid 1px #D0D0D0;
+	
+}
+
+#portrait {
+	
+
+	}
+
+#actor_label{
+	background: #F5F5F5;
+	padding-left: 20px; /* temporary */
+}
+
+#stats {
+	display: flex;
+	font-family: "Inconsolata";
+	width: 200px;
+	background: #F5F5F5;/*temporary to visualize location*/
+	align-items: center;
+	}
+#rightArea {
+	width: 100%;
+	height: 200px;
+}
+
+#Bars {
+	display: flex;
+	font-family: "Inconsolata";
+	background: #E3E3E3;
+	border: solid 2px #627186;
+	line-height: 24px;
+}
+#energyBar {
+	flex: 1;
+	background: #EFE5C6;
+	padding-left: 20px;
+}
+#moveBar {
+	flex: 1;
+	background: #C6DCEF;
+	padding-left: 20px;
+}
+
+#spells {
+	margin-top: 20px;
+	background: #C6C6EF;
+	height: 120px;
+}
+/* we're gonna need areas for spells, items, energy bars, hp*/

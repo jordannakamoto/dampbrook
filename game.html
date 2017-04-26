@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <title>title</title>
   </head>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lora" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/meta.css">
   <link rel="stylesheet" type="text/css" href="css/test.css">
   <link rel="stylesheet" type="text/css" href="css/ui/ui_layer.css">
   <link rel="stylesheet" type="text/css" href="css/ui/turn_machine.css">
+  <link rel="stylesheet" type="text/css" href="css/ui/actor.css">
   <link rel="stylesheet" type="text/css" href="css/ui/persistant.css">
   <body>
-  	<div id="randomnotes" style="position:absolute;margin-left: 20px">
+  	<div id="randomnotes">
   		<h1>todo</h1>
-  		append card model to unordered list
+  		<ul>
+    		<li><s>append card model to unordered list</s></li>
+    		<li><s>active character ui element </s></li>
+        <li>eventually need to resolve same initiative score</li>
+  		</ul>
   	</div>
   	<!-- UI START-->
 	<div id="ui_layer">
+		<div id="actor">
+			<div id="actor_label"><h4>Actor</h4></div>
+			<div id="stats"></div>
+      <div id="rightArea">
+        <div id="Bars">
+          <div id="moveBar">MP</div>
+          <div id="energyBar">ENERGY</div>
+        </div>
+        <div id="spells">Spells go here</div>
+      </div>
+      
+
+		</div>
 		<div id="turn_machine">
 			<ul id="tm__cards">
-				<li class="tm__card">1</li>
-				<li class="tm__card">2</li>
-				<li class="tm__card">3</li>
+				<!-- tm__card get appended here-->
 			</ul>
 		</div>
 		<div id="footer"></div>
@@ -32,6 +50,8 @@
   <script src="scripts/vendor/pouchdb-6.1.2.min.js"></script>
   <script src="scripts/game/test.js"></script> <!-- temp main -->
 
+  <script src="scripts/game/lists/pawns.js"></script>
   <script src="scripts/ui/turn_machine.js"></script>
+  <script src="scripts/ui/actor.js"></script>
   </body>
 </html>

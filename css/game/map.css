@@ -1,0 +1,11 @@
+#background_map {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 42px;
+	width: 1280px;
+	height: 800px;
+	background: url("../../graphics/maps/myfirstmap.png"); /* maybe if i host this, the root filepath will work */
+}

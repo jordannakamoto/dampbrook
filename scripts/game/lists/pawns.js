@@ -8,7 +8,7 @@ var pawns = [
         move: 50
         },
 
-       {name: "rb",
+       {name: "grill",
         maxHp: 25,
         agi: 15,
         move: 100},
